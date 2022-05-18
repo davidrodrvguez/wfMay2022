@@ -1,0 +1,36 @@
+h1{
+   color:tomato; 
+   background-color: blueviolet;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color:green;
+}
+
+#gold{
+    background-color: gold ;
+}
+
+div > p{
+    background-color: orange;
+}
+
+p{
+    background-color: aquamarine;
+}
+
+.parent h3{
+    background-color: violet;
+}
+
+.notviolet{
+    background-color: rgb(17, 110, 191);
+}
+
+.parent:hover{
+    color:brown;
+}
