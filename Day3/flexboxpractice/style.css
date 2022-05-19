@@ -1,0 +1,56 @@
+.container{
+    height:500px;
+    display: flex;
+    background-color: yellow;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0 10px;
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.super{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+}
+
+.bebe{
+    height: 20px;
+    width: 10px;
+    background-color: peru;
+    color: peru;
+}
+
+.item1{
+    background-color: aquamarine;
+    flex: 1;
+    height: 150px;
+}
+
+.item2{
+    background-color: blue;
+    flex: 2;
+    height: 150px;
+}
+
+.item3{
+    background-color: pink;
+    flex: 5;
+    height: 150px;
+}
+
+.red{
+    background-color: red;
+}
