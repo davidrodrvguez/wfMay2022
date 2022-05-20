@@ -1,0 +1,12 @@
+html {
+    background-color:red;}
+
+.belt{
+    height: 100px;
+    color: black;
+    background-color: black;
+    margin-left: -15px;
+    margin-right: -15px;
+    justify-content: center;
+
+}
