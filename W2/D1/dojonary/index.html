@@ -11,7 +11,7 @@
     <div class="navbar">
         <h1>Dojonary</h1>
         <input class="searchbar" type="text" name="Search">
-        <button class="login" onclick="logout">Login</button>
+        <button class="login" onclick="logout()">Login</button>
     </div>
     <div class="container">
         <div class="ninja">
@@ -28,7 +28,7 @@
         <div class="adddefinition">
             <p>Dojonary is </p>
             <p>defined by YOU </p>
-            <button id="addbutton">Add Definition</button>
+            <button id="addbutton" >Add Definition</button>
         </div>
     </div>   
     <div class="container2">
@@ -40,23 +40,11 @@
                 <button id="likes">37 Likes</button>
             </div>
             <div class="definition">
-                <p>A <a href="https://www.merriam-webster.com/dictionary/programmer">programmer who breaks down problems with <a href="https://www.merriam-webster.com/dictionary/Zen">zen</a>-like focus</a> </p>
+                <p>A <a href="https://www.merriam-webster.com/dictionary/programmer">programmer</a> who breaks down problems with <a href="https://www.merriam-webster.com/dictionary/Zen">zen</a>-like focus</p>
             </div>
         </div>
         <div class="adddefinition2"></div>
     </div>
-    <script>
-        var button = document.getElementById("likes")
-
-        button.onclick = function(){
-        alert("Ninja was liked");}
-        
-        var login = document.getElementById("addbutton")
-
-        login.onclick = function(){
-        removeEventListener
-        }
-
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
