@@ -1,0 +1,106 @@
+*{
+    margin-top: 0;
+}
+/* NAVBAR */
+.navbar{
+    background-color: rgb(117, 117, 117);
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    width: 900px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+.searchbar{
+    width: 500px;
+    height: 30px;
+    color:grey
+}
+
+.login{
+    background-color: blue;
+    color: white;
+}
+/* NINJA */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 207px;
+    background-color: clear;
+    margin-right: 207px;
+    padding: 10px;
+}
+
+.ninja{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 600px;
+    border: 2pt solid black;
+}
+
+.word{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 120px;
+    border: 2pt solid clear;
+}
+
+.definition{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    border: 2pt solid clear;
+}
+
+.adddefinition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 180px;
+    width: 300px;
+    border: 2pt solid black;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 207px;
+    background-color: clear;
+    margin-right: 207px;
+    padding: 10px;
+}
+
+
+.adddefinition2{
+    height: 180px;
+    width: 300px;
+    border: 2pt solid clear;
+}
+
+#likes{
+    background-color: rgb(233, 169, 21);
+    color: black;
+}
+
+#addbutton{
+    background-color: rgb(3, 103, 3);
+    color: black;
+    height: 30px;
+    width: 150px;
+}
