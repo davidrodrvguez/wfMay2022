@@ -1,0 +1,1 @@
+var audio = new audio(poke.mp3)

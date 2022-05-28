@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="leftbox">
+            <div class="pokebowl">
+                <img src="logo.jpg">
+            </div>
+            <div class="aboutus">
+                <p class="menu">About us</p>
+                <p >Menu</p>
+                <p>Catering</p>
+                <p>Hours</p>
+            </div> <br>
+            <div class="schedule">
+                <p>mon - fri 11am - 10pm</p>
+                <p>sat 12pm - 1am</p>
+                <p>sun 12pm - 9pm</p> 
+            </div><br>
+            <div class="location">
+                <p>Locations</p>
+                <img src="map.jpg">
+                <p onclick="alert(' Call us at 555-5555')">Contact us</p>
+            </div>
+        </div>
+        <div class="right2box">
+            <div>
+                <video loop muted id="autoplay">
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="blueandred">
+                <div class="pokeyourway">
+                    <h2 class="title">Poke your way
+                    </h2>
+                    <div class="threechoices">
+                        <div class="one">
+                            <p class="onehover"> <img class="numbers" src="1.jpg"> choose your protein 
+                            </p>
+                            <span class="hide">samos, tuna, tofu</span>
+                        </div>
+                        <div class="two">
+                            <p class="onehover"> <img class="numbers" src="2.jpg"> pick your base
+                            </p>
+                            <span class="hide">rice, quinoa, soba noodles</span>
+                        </div>
+                        <div class="three">
+                            <p class="onehover"> <img class="numbers" src="3.jpg"> select a marinade
+                            </p>
+                            <span class="hide">ponzu, sriracha aoili, sesame miso</span>
+                        </div>
+                    </div>
+                    <div class="poke">
+                        <div class="top">
+                            <h2>poke <img class="pronon" src="pronounciation.jpg"></h2>
+                            <br>
+                        </div>
+                        <div class="middle">
+                            <p>noun</p>
+                            <br>
+                        </div>
+                        <div class="bottom">
+                            <span>Pronounced (po-kay)</span><br>
+                            <span>A popular Hawaiian dish of marinated, diced row fish served over rice</span>
+                            <img id="soundlogo" src="sound-dark.jpg" onclick="play()">
+                            <audio id="audio" src="poke.mp3"></audio>
+                            <script>
+                                function play() {
+                                    var audio = document.getElementById("audio");
+                                    audio.play()
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+            document.getElementById("autoplay").play();
+        }
+    </script>
+</body>
+</html>
