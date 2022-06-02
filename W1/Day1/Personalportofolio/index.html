@@ -5,69 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Programmer Name</h1>
 
-    <div>
-        <a href="https://github.com/davidrodrvguez/wfMay2022"> 
-        my github
-        </a>
+<div class="background-image" class="padding">
+    <div class="container">
+        <h1>David Rodriguez</h1>
+        <br>
+        <img class="profilepic" src="IMG_0254.GIF">
+        <br>
+        <div>
+            <a href="https://github.com/davidrodrvguez/wfMay2022"> 
+            my github
+            </a>
 
-        <a href="htpps://www.linkedin.com">
-        my linkedin
-        </a>
+            <a href="htpps://www.linkedin.com">
+            my linkedin
+            </a>
 
-        <a href="davidrodrvguez@gmail.com">
-            my email
-        </a>
+            <a href="davidrodrvguez@gmail.com">
+                my email
+            </a>
+        </div>
+
+        <div>
+            <h3>Technologies</h3>
+        </div>
+        <table width="200"  cellspacing="0" border="1" bordercolor="blue">
+            <thead>
+                <tr>
+                    <th>Front-End</th>
+                    <th>Python</th>
+                    <th>Javascript</th>
+                    <th>Database</th>
+                    <th>Concepts</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Django</td>
+                    <td>Express</td>
+                    <td>MySQL</td>
+                    <td>AJAX</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Flask</td>
+                    <td>Mongoose</td>
+                    <td>MongoDB</td>
+                    <td>OOP</td>
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td>Unittest</td>
+                    <td>React</td>
+                    <td>       </td>
+                    <td>REST</td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <h3>Social Snakes</h3>
+        </div>
+        <div>
+            <p>Social Media App made in Python -</p>
+            <a href="">
+
+            </a>
+        </div>
+        <br>
+        <h4>Contact Me</h4>
+        <br>
+        <div>
+            <P>Name: <input type="text"></P>
+            <p>Email:<input type="text"></p>
+        </div>
+        <p>Message: <input type="text"></p>
+        <button>Send Message:</button>
     </div>
-
-    <div>
-        <h3>Technologies</h3>
-    </div>
-    <table>
-        <thead>
-            <tr>
-                <th>Front-End</th>
-                <th>Python</th>
-                <th>Javascript</th>
-                <th>Database</th>
-                <th>Concepts</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>HTML5</td>
-                <td>Django</td>
-                <td>Express</td>
-                <td>MySQL</td>
-                <td>AJAX</td>
-            </tr>
-            <tr>
-                <td>CSS3</td>
-                <td>Flask</td>
-                <td>Mongoose</td>
-                <td>MongoDB</td>
-                <td>OOP</td>
-            </tr>
-            <tr>
-                <td>Bootstrap</td>
-                <td>Unittest</td>
-                <td>React</td>
-                <td>       </td>
-                <td>REST</td>
-            </tr>
-        </tbody>
-    </table>
-    <div>
-        <h3>Social Snakes</h3>
-    </div>
-    <div>
-        <p>Social Media App made in Python -</p>
-        <a href="">
-
-        </a>
-    </div>
+</div>
 </body>
-    </html>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .background-image {
+        background-image: url("nyccity.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+</style>
+</html>
